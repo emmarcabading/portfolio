@@ -1,0 +1,90 @@
+
+/* style.css */
+
+/* General styles */
+
+body {
+    background-color: #f8f8f8; /* Set the background color for the entire page */
+    color: #333; /* Set the default text color */
+    font-family: 'Arial', sans-serif; /* Define the default font family */
+}
+
+/* Header styles */
+header {
+    background-color: #54d6be; /* Header background color */
+    color: white; /* Header text color */
+    padding: 15px; /* Add padding around the header content */
+}
+
+/* Navigation styles */
+nav {
+    display: flex; /* Use flexbox for navigation layout */
+    justify-content: space-around; /* Space out the navigation items */
+    background-color: #333; /* Navigation background color */
+    padding: 10px; /* Add padding to the navigation */
+}
+
+nav a {
+    color: white; /* Navigation link color */
+    text-decoration: none; /* Remove underline from navigation links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline navigation links on hover */
+}
+
+/* Biography section styles */
+#biography {
+    border: 2px solid #ccc; /* Add border to the biography section */
+    padding: 20px; /* Add padding inside the biography section */
+    margin: 20px 0; /* Add margin above and below the biography section */
+}
+
+/* Image styles */
+img {
+    max-width: 100%; /* Make sure images don't exceed their container */
+    height: auto; /* Maintain the aspect ratio of images */
+    border: 1px solid #ddd; /* Add a border around images */
+}
+
+/* Links styles */
+a {
+    color: #0066cc; /* Link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%; /* Make the table take the full width of its container */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px; /* Add padding inside table cells */
+    text-align: left; /* Align text to the left in table cells */
+}
+
+/* Contact information styles */
+aside {
+    background-color: #f2f2f2; /* Background color for the contact information section */
+    padding: 15px; /* Add padding inside the contact information section */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Footer background color */
+    color: white; /* Footer text color */
+    text-align: center; /* Center-align text in the footer */
+    padding: 10px; /* Add padding inside the footer */
+}
+
+/* Media query for responsiveness */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #e6f7ff; /* Change background color for larger screens */
+    }
+}

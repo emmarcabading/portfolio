@@ -1,5 +1,5 @@
 
-/*style.css*/
+/* style.css */
 
 /* General styles */
 
@@ -78,8 +78,8 @@ img {
     border: 10px solid #54d6be; /* Add a border around images */
     border-radius: 50px; /* Apply rounded corners to images */
     display: block; /* Set the display property to block, making the element a block-level element */
-    margin-left: auto; /* Center the block-level element horizontally by setting the left and right margins to auto */
-    margin-right: auto; /* Center the block-level element horizontally by setting the left and right margins to auto */
+    margin-left: auto; /* Center the block-level element horizontally by setting the left margins to auto */
+    margin-right: auto; /* Center the block-level element horizontally by setting the right margins to auto */
 }
 
 figcaption {

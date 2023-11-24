@@ -1,53 +1,114 @@
 
-/* style.css */
+/*style.css*/
 
 /* General styles */
 
 body {
     background-color: #f8f8f8; /* Set the background color for the entire page */
     color: #333; /* Set the default text color */
-    font-family: 'Arial', sans-serif; /* Define the default font family */
+    font-family: 'Nunito', sans-serif; /* Define the default font family */
 }
 
 /* Header styles */
+h1{
+    font-weight: 1000; /* Set a high font weight for bold emphasis */
+    font-size: 60px; /* Set the font size to 60 pixels */
+}
+
 header {
     background-color: #54d6be; /* Header background color */
+    border-radius: 50px; /* Apply rounded corners to the header */
     color: white; /* Header text color */
+    font-weight: 700; /* Set font weight for bold text in the header */
+    font-size: 18px; /* Set font size to 18 pixels in the header */
+    text-align: center; /* Center-align the text within its containing element */
     padding: 15px; /* Add padding around the header content */
 }
 
+h2 {
+    text-align: center; /* Center-align the text within its containing element */
+    font-weight: 800; /* Set a high font weight for bold emphasis */
+}
+
 /* Navigation styles */
-nav {
-    display: flex; /* Use flexbox for navigation layout */
-    justify-content: space-around; /* Space out the navigation items */
-    background-color: #333; /* Navigation background color */
-    padding: 10px; /* Add padding to the navigation */
+nav ul {
+    list-style: none; /* Remove default list styles for the navigation list */
+    background: #333; /* Set background color for the navigation list */
+    border-radius: 50px;  /* Apply rounded corners to the navigation list */
+    padding: 0; /* Remove padding from the navigation list */
+    margin: 0; /* Remove margin from the navigation list */
+}
+
+nav li {
+    display: inline-block; /* Display navigation items horizontally */
 }
 
 nav a {
     color: white; /* Navigation link color */
     text-decoration: none; /* Remove underline from navigation links */
+    width: 100px; /* Set a fixed width for navigation links */
+    display: block; /* Make navigation links block-level elements */
+    padding: 25px 20px; /* Add padding to the navigation links */
+    text-transform: uppercase; /* Convert text to uppercase in navigation links */
+    text-align: center; /* Center-align the text within navigation links */
 }
 
 nav a:hover {
-    text-decoration: underline; /* Underline navigation links on hover */
+    background: #54d6be; /* Change background color on hover */
+    text-decoration: underline; /* Underline links on hover */
 }
 
 /* Biography section styles */
 #biography {
-    border: 2px solid #ccc; /* Add border to the biography section */
+    border: 10px solid #54d6be; /* Add border to the biography section */
+    border-radius: 50px; /* Apply rounded corners to the biography section */
+    text-align: center; /* Center-align the text within its containing element */
     padding: 20px; /* Add padding inside the biography section */
     margin: 20px 0; /* Add margin above and below the biography section */
+}
+
+p {
+    font-weight: 700; /* Set a high font weight for bold text in paragraphs */
 }
 
 /* Image styles */
 img {
     max-width: 100%; /* Make sure images don't exceed their container */
     height: auto; /* Maintain the aspect ratio of images */
-    border: 1px solid #ddd; /* Add a border around images */
+    border: 10px solid #54d6be; /* Add a border around images */
+    border-radius: 50px; /* Apply rounded corners to images */
+    display: block; /* Set the display property to block, making the element a block-level element */
+    margin-left: auto; /* Center the block-level element horizontally by setting the left and right margins to auto */
+    margin-right: auto; /* Center the block-level element horizontally by setting the left and right margins to auto */
+}
+
+figcaption {
+    text-align: center; /* Center-align the text within its containing element */
+    font-weight: 700; /* Set a high font weight for bold text in figure captions */
+    background-color: #54d6be; /* Set background color for figure captions */
+    border-radius: 50px; /* Apply rounded corners to figure captions */
+    padding: 20px; /* Add padding inside the biography section */
 }
 
 /* Links styles */
+link {
+    border: 10px solid #54d6be; /* Add border to the anchor elements */
+    text-align: center; /* Center-align the text within anchor elements */
+    padding: 20px; /* Add padding to the anchor elements */
+    margin: 20px 0; /* Add margin above and below the anchor elements */
+}
+
+p {
+    text-align: center; /* Center-align the text within its containing element */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styles for unordered lists */
+    margin: 0; /* Remove margin from unordered lists */
+    padding: 0; /* Remove padding from unordered lists */
+    text-align: center; /* Center-align the text within its containing element */
+}
+
 a {
     color: #0066cc; /* Link color */
 }
@@ -57,20 +118,38 @@ a:hover {
 }
 
 /* Table styles */
+#table {
+    background-color: #54d6be; /* Set background color for the table container */
+    padding: 5px; /* Add padding around the header content */
+    border-radius: 10px; /* Apply rounded corners to the table container */
+}
+
 table {
     border-collapse: collapse; /* Collapse table borders */
     width: 100%; /* Make the table take the full width of its container */
 }
 
 th, td {
-    border: 1px solid #ddd; /* Add borders to table cells */
     padding: 8px; /* Add padding inside table cells */
-    text-align: left; /* Align text to the left in table cells */
+    border: 1px solid #54d6be; /* Add borders to table cells */
+    text-align: center; /* Align text to the left in table cells */
+}
+
+td {
+    background-color: #f2f2f2; /* Set background color for regular table cells */
+}
+
+th {
+    padding-top: 12px; /* Add padding to the top of table header cells */
+    padding-bottom: 12px; /* Add padding to the top of table header cells */
+    text-align: center; /* Center-align the text within table header cells */
+    background-color: #333; /* Set background color for table header cells */
+    color: white; /* Set background color for table header cells */
 }
 
 /* Contact information styles */
 aside {
-    background-color: #f2f2f2; /* Background color for the contact information section */
+    background-color: #f8f8f85b; /* Background color for the contact information section */
     padding: 15px; /* Add padding inside the contact information section */
 }
 
